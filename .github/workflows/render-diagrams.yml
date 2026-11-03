@@ -10,6 +10,9 @@ on:
       - "includes/*.puml"
       - "Makefile"
 
+permissions:
+  contents: write
+
 jobs:
   render:
     runs-on: ubuntu-latest
